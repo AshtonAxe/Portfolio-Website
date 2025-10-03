@@ -29,7 +29,7 @@ export const Navigation = () => {
     { name: "Research", path: "/research" },
     { name: "Projects", path: "/projects" },
     { name: "Experience", path: "/experience" },
-    { name: "Publications", path: "/publications" },
+    { name: "Athletics", path: "/athletics" },
     { name: "Contact", path: "/contact" },
   ];
 

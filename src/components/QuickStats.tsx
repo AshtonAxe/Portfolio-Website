@@ -22,12 +22,6 @@ export const QuickStats = () => {
       description: "Pre-seed round",
     },
     {
-      icon: FileText,
-      label: "Publications",
-      value: "1",
-      description: "Binding affinity prediction",
-    },
-    {
       icon: Trophy,
       label: "Athletics",
       value: "Captain",
@@ -41,7 +35,7 @@ export const QuickStats = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           Quick Stats
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
             <Card
               key={index}

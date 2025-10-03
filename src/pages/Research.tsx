@@ -35,6 +35,31 @@ const Research = () => {
           </div>
 
           <div className="space-y-8">
+            {/* Current Research - Barzilay Lab */}
+            <Card className="p-8">
+              <div className="space-y-4">
+                <div>
+                  <h2 className="text-2xl font-bold mb-2">
+                    Protein-Glycan Binding Affinity Prediction
+                  </h2>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    <Badge variant="secondary">Ongoing</Badge>
+                    <Badge variant="secondary">Boltz-2</Badge>
+                    <Badge variant="secondary">Molecular Dynamics</Badge>
+                  </div>
+                  <p className="text-muted-foreground mb-2">
+                    <span className="font-semibold">Affiliation:</span> Barzilay Lab, MIT CSAIL & J-Clinic
+                  </p>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  Training Boltz-2 on 500k measurements from LectinOracle for
+                  protein–glycan binding affinity prediction. Designing model
+                  enhancements in PyTorch to integrate molecular dynamics features
+                  to improve accuracy for highly flexible glycan structures.
+                </p>
+              </div>
+            </Card>
+
             {/* Main Research Paper */}
             <Card className="p-8">
               <div className="space-y-6">
@@ -154,27 +179,123 @@ const Research = () => {
               </div>
             </Card>
 
-            {/* Current Research */}
+            {/* Kellis Lab */}
             <Card className="p-8">
               <div className="space-y-4">
                 <div>
                   <h2 className="text-2xl font-bold mb-2">
-                    Protein-Glycan Binding Affinity Prediction
+                    Genomics & Computational Biology Research
                   </h2>
                   <div className="flex flex-wrap gap-2 mb-3">
-                    <Badge variant="secondary">Ongoing</Badge>
-                    <Badge variant="secondary">Boltz-2</Badge>
-                    <Badge variant="secondary">Molecular Dynamics</Badge>
+                    <Badge variant="secondary">Genomics</Badge>
+                    <Badge variant="secondary">Computational Biology</Badge>
+                    <Badge variant="secondary">Bioinformatics</Badge>
                   </div>
                   <p className="text-muted-foreground mb-2">
-                    <span className="font-semibold">Affiliation:</span> Barzilay Lab, MIT CSAIL & J-Clinic
+                    <span className="font-semibold">Affiliation:</span> Kellis Lab, MIT CSAIL
                   </p>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Training Boltz-2 on 500k measurements from LectinOracle for
-                  protein–glycan binding affinity prediction. Designing model
-                  enhancements in PyTorch to integrate molecular dynamics features
-                  to improve accuracy for highly flexible glycan structures.
+                  Conducted computational genomics research focusing on regulatory genomics 
+                  and disease mechanisms. Applied machine learning approaches to analyze 
+                  large-scale genomic datasets and identify genetic variants associated 
+                  with complex diseases.
+                </p>
+              </div>
+            </Card>
+
+            {/* Rasmussen Lab */}
+            <Card className="p-8">
+              <div className="space-y-4">
+                <div>
+                  <h2 className="text-2xl font-bold mb-2">
+                    Structural Biology & Protein Engineering
+                  </h2>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    <Badge variant="secondary">Structural Biology</Badge>
+                    <Badge variant="secondary">Protein Engineering</Badge>
+                    <Badge variant="secondary">Cryo-EM</Badge>
+                  </div>
+                  <p className="text-muted-foreground mb-2">
+                    <span className="font-semibold">Affiliation:</span> Rasmussen Lab, MIT
+                  </p>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  Investigated G protein-coupled receptor (GPCR) structures and dynamics 
+                  using computational and experimental techniques. Contributed to 
+                  understanding receptor activation mechanisms and drug-receptor interactions.
+                </p>
+              </div>
+            </Card>
+
+            {/* Langer Lab */}
+            <Card className="p-8">
+              <div className="space-y-4">
+                <div>
+                  <h2 className="text-2xl font-bold mb-2">
+                    Drug Delivery & Biomaterials
+                  </h2>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    <Badge variant="secondary">Drug Delivery</Badge>
+                    <Badge variant="secondary">Biomaterials</Badge>
+                    <Badge variant="secondary">Nanomedicine</Badge>
+                  </div>
+                  <p className="text-muted-foreground mb-2">
+                    <span className="font-semibold">Affiliation:</span> Langer Lab, MIT
+                  </p>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  Developed novel drug delivery systems and biomaterials for therapeutic 
+                  applications. Focused on designing nanoparticle-based platforms for 
+                  targeted drug delivery and controlled release.
+                </p>
+              </div>
+            </Card>
+
+            {/* IncellDx */}
+            <Card className="p-8">
+              <div className="space-y-4">
+                <div>
+                  <h2 className="text-2xl font-bold mb-2">
+                    Clinical Diagnostics & Immunology
+                  </h2>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    <Badge variant="secondary">Diagnostics</Badge>
+                    <Badge variant="secondary">Immunology</Badge>
+                    <Badge variant="secondary">Biomarkers</Badge>
+                  </div>
+                  <p className="text-muted-foreground mb-2">
+                    <span className="font-semibold">Affiliation:</span> IncellDx
+                  </p>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  Contributed to development of advanced diagnostic assays and 
+                  immunological testing platforms. Analyzed patient data and biomarkers 
+                  to improve disease detection and monitoring.
+                </p>
+              </div>
+            </Card>
+
+            {/* Halo Diagnostics */}
+            <Card className="p-8">
+              <div className="space-y-4">
+                <div>
+                  <h2 className="text-2xl font-bold mb-2">
+                    Point-of-Care Diagnostics
+                  </h2>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    <Badge variant="secondary">Point-of-Care</Badge>
+                    <Badge variant="secondary">Medical Devices</Badge>
+                    <Badge variant="secondary">Clinical Testing</Badge>
+                  </div>
+                  <p className="text-muted-foreground mb-2">
+                    <span className="font-semibold">Affiliation:</span> Halo Diagnostics
+                  </p>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  Worked on developing rapid diagnostic technologies for point-of-care 
+                  applications. Focused on creating accessible and accurate testing 
+                  solutions for clinical and field settings.
                 </p>
               </div>
             </Card>

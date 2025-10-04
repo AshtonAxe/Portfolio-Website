@@ -28,8 +28,8 @@ export const Navigation = () => {
     { name: "Home", path: "/" },
     { name: "Research", path: "/research" },
     { name: "Projects", path: "/projects" },
-    { name: "Experience", path: "/experience" },
     { name: "Athletics", path: "/athletics" },
+    { name: "Community Service", path: "/community-service" },
     { name: "Contact", path: "/contact" },
   ];
 

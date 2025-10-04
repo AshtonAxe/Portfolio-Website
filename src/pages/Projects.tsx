@@ -47,8 +47,8 @@ const Projects = () => {
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   An MIT startup creating AI agentic personas that predict human
                   behavior. We help organizations simulate complex human
-                  interactions and decision-making patterns using advanced language
-                  models.
+                  interactions and decision-making patterns using our advanced language
+                  model.
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-4">
@@ -105,7 +105,7 @@ const Projects = () => {
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">
-                        Secured partnership with Arena Advisory Group for enterprise simulations
+                        Lead partnership with Arena Advisory Group for enterprise simulations
                       </span>
                     </li>
                     <li className="flex items-start gap-2">
@@ -119,29 +119,62 @@ const Projects = () => {
               </div>
             </Card>
 
-            {/* Mantis */}
+            {/* Ant AI */}
             <Card className="p-8">
-              <div className="space-y-4">
-                <div>
-                  <h2 className="text-2xl font-bold mb-3">
-                    Mantis: AI-Powered Data Visualization
-                  </h2>
-                  <div className="flex flex-wrap gap-2 mb-3">
-                    <Badge variant="secondary">TypeScript</Badge>
-                    <Badge variant="secondary">Data Visualization</Badge>
-                    <Badge variant="secondary">AI</Badge>
+              <div className="space-y-6">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h2 className="text-3xl font-bold mb-3">Mantis AI</h2>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      <Badge variant="secondary">Developer</Badge>
+                      <Badge variant="secondary">Clustering</Badge>
+                      <Badge variant="secondary">PyTorch</Badge>
+                      <Badge variant="secondary">TypeScript</Badge>
+                      <Badge variant="secondary">Clinical Data</Badge>
+                      <Badge variant="secondary">Proteomics</Badge>
+                    </div>
                   </div>
-                  <p className="text-muted-foreground mb-2">
-                    <span className="font-semibold">Affiliation:</span> Kellis Lab, MIT CSAIL & Broad Institute
-                  </p>
+                  <Button asChild>
+                    <a
+                      href="https://home.withmantis.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Visit Site
+                    </a>
+                  </Button>
                 </div>
-                <p className="text-muted-foreground leading-relaxed">
-                  Interactive space created in TypeScript that uses advanced AI to
-                  transform complex data landscapes into visual, navigable maps.
-                  Applied to clustering EHR multimodal data for 2000 Alzheimer's
-                  patients to predict optimal treatment pathways. Presented findings
-                  to Sanofi AI team.
-                </p>
+
+                <div>
+                  <h3 className="font-semibold mb-3">Key Achievements</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Integrated proteomics data with EHR data into Mantis
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Developed a chatbot to answer questions about the data
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Facilitated collaboration with Sanofi and integrated their data into Mantis
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                      Presented to Sanofi AI team on clustering their EHR multimodal data for 2000 Alzheimer's patients to predict the next best steps for patients
+                      </span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </Card>
           </div>

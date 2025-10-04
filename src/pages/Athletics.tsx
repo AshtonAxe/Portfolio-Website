@@ -28,12 +28,12 @@ const Athletics = () => {
                   <Badge>Current</Badge>
                 </div>
                 <p className="text-muted-foreground mb-2">
-                  <span className="font-semibold">Position:</span> Starter
+                  <span className="font-semibold">Position:</span> Midfielder
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Currently playing as a starter on the MIT varsity lacrosse team, 
-                  competing at the NCAA Division III level. Balancing rigorous 
-                  academic coursework in computer science and molecular biology 
+                  Currently playing as a starter on the MIT varsity lacrosse team,
+                  competing at the NCAA Division III level. Balancing rigorous
+                  academic coursework in computer science and molecular biology
                   with athletic commitment and team responsibilities.
                 </p>
               </div>
@@ -57,9 +57,9 @@ const Athletics = () => {
                   </div>
                 </div>
                 <p className="text-muted-foreground">
-                  Selected as captain of the USA U18 box lacrosse team, leading 
-                  the squad in international competition and demonstrating 
-                  leadership both on and off the field.
+                  Selected as captain of the USA U18 box lacrosse team, leading
+                  the squad in international competition and demonstrating
+                  leadership both on and off the field. Won a gold medal at Canadian 2022 World U18 Box Lacrosse Championships.
                 </p>
               </Card>
 
@@ -76,8 +76,8 @@ const Athletics = () => {
                   </div>
                 </div>
                 <p className="text-muted-foreground">
-                  Competed as a member of the USA U18 box lacrosse national team, 
-                  representing the United States in international box lacrosse 
+                  Competed as a member of the USA U18 box lacrosse national team,
+                  representing the United States in international box lacrosse
                   tournaments.
                 </p>
               </Card>

@@ -177,6 +177,136 @@ const Projects = () => {
                 </div>
               </div>
             </Card>
+
+            {/* CpG Island Detection */}
+            <Card className="p-8">
+              <div className="space-y-6">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h2 className="text-3xl font-bold mb-3">CpG Island Detection using Hidden Markov Model</h2>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      <Badge variant="secondary">Developer</Badge>
+                      <Badge variant="secondary">Bioinformatics</Badge>
+                      <Badge variant="secondary">Python</Badge>
+                      <Badge variant="secondary">Genomics</Badge>
+                      <Badge variant="secondary">Data Modeling</Badge>
+                      <Badge variant="secondary">Machine Learning</Badge>
+                    </div>
+                  </div>
+                  <Button asChild>
+                    <a
+                      href="https://github.com/AshtonAxe/hmm-cpg-island-detection/tree/main"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Visit Repo
+                    </a>
+                  </Button>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-3">Key Achievements</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Implemented an eight-state Hidden Markov Model (HMM) to detect CpG islands in the human genome using human chromosome 21 as training data
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Estimated transition and emission probabilities via maximum likelihood estimation with smoothing to prevent zero-probability issues
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Achieved 0.85 sensitivity, 0.88 specificity, and 0.87 precision on the test data (chromosome 22)
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Generated final transition and emission matrices and predicted CpG island regions
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Built a fully reproducible workflow with customizable initialization and model parameters
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+
+            {/* Motif Discovery using Gibbs Sampling */}
+            <Card className="p-8">
+              <div className="space-y-6">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h2 className="text-3xl font-bold mb-3">Motif Discovery using Gibbs Sampling (with CNN Baseline)</h2>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      <Badge variant="secondary">Developer</Badge>
+                      <Badge variant="secondary">Bioinformatics</Badge>
+                      <Badge variant="secondary">PyTorch</Badge>
+                      <Badge variant="secondary">Machine Learning</Badge>
+                      <Badge variant="secondary">Genomics</Badge>
+                      <Badge variant="secondary">Pattern Recognition</Badge>
+                    </div>
+                  </div>
+                  <Button asChild>
+                    <a
+                      href="https://github.com/AshtonAxe/gibbs-motif-discovery"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Visit Repo
+                    </a>
+                  </Button>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-3">Key Achievements</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Implemented a Gibbs sampling algorithm for de novo DNA motif discovery, applied to CTCF binding sequences
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Iteratively refined motif positions and re-estimated a Position Weight Matrix (PWM) to identify statistically overrepresented motifs
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Developed a PyTorch-based CNN baseline for motif classification, enabling direct comparison between a classical generative model and a modern discriminative neural network
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Produced interpretable motif visualizations and performance metrics across both models
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
+                        Generated final PWM matrices, motif site predictions, CNN training metrics, and learned convolutional filters
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </div>

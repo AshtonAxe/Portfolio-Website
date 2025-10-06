@@ -294,6 +294,12 @@ const Projects = () => {
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">
+                        Achieved 0.80 accuracy with the Gibbs sampler and 0.85 accuracy with the CNN baseline on CTCF motif classification
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground">
                         Produced interpretable motif visualizations and performance metrics across both models
                       </span>
                     </li>

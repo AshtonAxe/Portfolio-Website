@@ -70,7 +70,7 @@ const Research = () => {
                 <div>
                   <h2 className="text-2xl font-bold mb-2">
                     Cross-Attention Fusion of 3D Drug Geometry and Protein
-                    Language Models for Interpretable Binding Affinity Prediction
+                    Language Models for Binding Affinity Prediction
                   </h2>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <Badge variant="secondary">Deep Learning</Badge>
